@@ -22,7 +22,7 @@ Burak OZ <burakoz@zoho.com>
 A cli app for dadaist poetry
 
 USAGE:
-    dadabot [OPTIONS]
+    dadavanga [OPTIONS]
 
 FLAGS:
     -h, --help       Prints help information
