@@ -21,7 +21,8 @@ fn lines_from_file(filename: impl AsRef<Path>) -> Vec<String> {
 fn create_line(max_words: i16, word_list: &Vec<String>) -> String {
     let mut rng = rand::thread_rng();
     let mut line: Vec<String> = Vec::new();
-    for _ in 1..max_words + 1 {
+    let random_word_by_line = rng.gen_range(0, max_words + 1);
+    for _ in 1..random_word_by_line + 1 {
         let random_line = rng.gen_range(0, word_list.len() + 1);
         line.push(word_list[random_line].to_string())
     }
