@@ -18,7 +18,7 @@ Then run it!
 
 ````sh
 dadavanga 1.0
-Burak OZ <burakoz@zoho.com>
+Burak OZ <buroz@nethole.dev>
 A cli app for dadaist poetry
 
 USAGE:
@@ -31,5 +31,5 @@ FLAGS:
 OPTIONS:
     -l, --lines <lines>    Max lines for poem | DEFAULT = 4
     -f, --file <file>      Path of your wordlist
-    -w, --words <words>    Max words value per line | DEFAULT = 5```
+    -w, --words <words>    Max words value per line | DEFAULT = 5
 ````
