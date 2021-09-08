@@ -41,7 +41,7 @@ fn init_word_list(list_path: &str) -> Vec<String> {
 fn main() {
     let matches = App::new("dadavanga")
         .version("1.0")
-        .author("Burak OZ <burakoz@zoho.com>")
+        .author("Burak OZ <buroz@nethole.dev>")
         .about("A cli app for dadaist poetry")
         .arg(
             Arg::with_name("path")
